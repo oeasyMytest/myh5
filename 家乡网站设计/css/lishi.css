@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+.tourism{
+	height: auto;
+	overflow: hidden;
+}
+ol, ul {
+    list-style: none;
+}
+li {
+    list-style-type: none;
+    list-style: none;
+}
+.tourism ul {
+    height: auto;
+    overflow: hidden;
+    margin: 20px;
+}
+.tourism ul li {
+    width: 574px;
+    height: auto;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin: 6px 0;
+    border: solid 1px #e5e6e6;
+}
+.tourism ul li .photo {
+    width: 192px;
+    height: 132.5px;
+    margin: 10px;
+    float: left;
+    overflow: hidden;
+}
+.tourism ul li .phototxt {
+    width: 342px;
+    height: 150px;
+    overflow: hidden;
+    float: left;
+    padding: 0 10px;
+}
+.tourism ul li .phototxt .tname {
+    height: 42px;
+    line-height: 42px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.tourism ul li .phototxt .ttxt {
+    height: auto;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 20px;
+}
+.tourism ul li .phototxt .ttxt .p {
+    line-height: 20px;
+}
+.tourism ul li .photo img {
+    width: 192px;
+    height: 132.5px;
+    overflow: hidden;
+    border: none;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}

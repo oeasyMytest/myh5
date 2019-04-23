@@ -1,0 +1,79 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+<link href="../images/timg.jpg">
+<title>走进延安</title>
+<link href="../css/shouye.css" rel="stylesheet" type="text/css"/>
+</head>
+<script type="text/javascript">
+  function load(){
+    window.setInterval('showRealTime(clock)',1000);
+  }
+</script>
+<body  onload="load()">
+<div id="clock"></div>
+<script type="text/javascript">
+  function showRealTime(clock){
+    var d = new Date();
+    var year = d.getFullYear();
+    var month = d.getMonth() + 1;
+    var date = d.getDate();
+    var days = new Array("日","一","二","三","四","五","六");
+    var day = d.getDay();
+    var hour = (d.getHours() < 10) ? ("0" + d.getHours()) : d.getHours();
+    var min = (d.getMinutes() < 10) ? ("0" + d.getMinutes()) : d.getMinutes();
+    var sec = (d.getSeconds() < 10) ? ("0" + d.getSeconds()) : d.getSeconds();
+    var now = hour + ":" + min + ":" + sec+ "<br/>" + year + "/" + month + "/" + date + "<br/>星期" + days[day];
+    clock.innerHTML =now;
+  }
+</script>
+<div id="box" class="w1200">
+  <div id="top" class="w500"> 
+    <h1></h1>
+  </div>
+  <marquee><h1>延安欢迎您</h1></marquee>
+  <div id="daohang" class="w1200"> 
+    <ul>
+      <li><a href="index.html">首页</a></li>
+      <li><a href="yagk.html">延安概况</a></li>
+      <li><a href="yaly.html">延安旅游</a></li>
+      <li><a href="tsya.html">图说延安</a></li>
+      <li><a href="yams.html">延安美食</a></li>
+      <li><a href="dftc.html">地方特产</a></li>
+      <li><a href="lswh.html">历史文化</a></li>
+      <li><a href="shsy.html">社会事业</a></li>
+    </ul>
+  </div>
+  <div id="main">
+    <div class="g-1st-video">
+      <video src="../images/yanan.mp4" 
+        width="933" height="524" 
+        controls>
+      </video>
+    </div>
+    <div>
+      <div class="para" label-module="para">延安市，简称“延”，陕西省地级市，是天下第一陵——中华民族始祖黄帝陵寝黄帝陵所在地&nbsp;
+      ，是民族圣地、中国革命圣地，国务院首批公布的国家历史文化名城&nbsp;
+      。延安位于陕西省北部，地处黄河中游，黄土高原的中南地区，省会西安以北371千米。北连榆林，南接关中咸阳、铜川、渭南三市，东隔黄河与山西临汾、吕梁相望，西邻甘肃庆阳。介于北纬35°21′－37°31′，东经107°41′－110°31′之间，东西宽256千米，南北长236千米，总面积37037平方千米，被誉为“三秦锁钥，五路襟喉”。&nbsp;
+      </div>
+      <div align="center"><img src="../images/yanantp.jpg" width="480"></div>
+      <div class="para" label-module="para">延安古称肤施、延州，是中华民族重要的发祥地，人文始祖黄帝曾居住在这一带。民国二十四年（1935年）10月，中共中央和中央红军胜利到达吴起镇，延安成为中国革命的落脚点和出发点，是全国革命根据地城市中旧址保存规模最大、数量最多、布局最为完整的城市&nbsp;
+     &nbsp;
+      。党中央和毛主席等老一辈革命家在这里生活战斗了十三个春秋，领导了抗日战争和解放战争，培育了延安精神，是全国爱国主义、革命传统和延安精神三大教育基地。&nbsp;
+      </div>
+      <div align="center"><img src="../images/yanantp1.jpg" width="480"></div>
+      <div class="para" label-module="para">截至2018年，延安市下辖2个区、11个县&nbsp;
+      ，常住人口225.94万人，实现地区生产总值（GDP）1558.91亿元，其中，第一产业增加值138.07亿元，第二产业增加值925.97亿元，第三产业增加值494.88亿元，三次产业构成为8.9：59.4：31.7，按常住人口计算，全年人均生产总值68940元。&nbsp;
+      </div>
+      <div align="center"><img src="../images/yanantp2.jpg" width="480"></div>
+      <div class="para" label-module="para">延安是“双拥运动”发祥地，中国优秀旅游城市，有着“中国革命博物馆城”的美誉&nbsp;
+      。境内有各类文物遗址点8545处，其中革命遗址445处。&nbsp;
+      </div>
+    </div>
+  <div class="lianjie"><marquee><h3><a href="http://www.yanan.gov.cn/">延安政府网链接</a></h3></marquee></div>
+  </div>
+</div>
+</body>
+</html>

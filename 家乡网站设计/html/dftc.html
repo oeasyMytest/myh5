@@ -1,0 +1,94 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+<link href="../images/timg.jpg">
+<title>地方特产</title>
+<link  href="../css/yams.css" rel="stylesheet" type="text/css" />
+</head>
+<script type="text/javascript">
+  function load(){
+    window.setInterval('showRealTime(clock)',1000);
+  }
+</script>
+<body  onload="load()">
+<div id="clock"></div>
+<script type="text/javascript">
+  function showRealTime(clock){
+    var d = new Date();
+    var year = d.getFullYear();
+    var month = d.getMonth() + 1;
+    var date = d.getDate();
+    var days = new Array("日","一","二","三","四","五","六");
+    var day = d.getDay();
+    var hour = (d.getHours() < 10) ? ("0" + d.getHours()) : d.getHours();
+    var min = (d.getMinutes() < 10) ? ("0" + d.getMinutes()) : d.getMinutes();
+    var sec = (d.getSeconds() < 10) ? ("0" + d.getSeconds()) : d.getSeconds();
+    var now = hour + ":" + min + ":" + sec+ "<br/>" + year + "/" + month + "/" + date + "<br/>星期" + days[day];
+    clock.innerHTML =now;
+  }
+</script>
+<div id="box" class="w1200">
+  <div id="top" class="w500"> 
+    <h1></h1>
+  </div>
+  <div id="daohang" class="w1200"> 
+    <ul>
+      <li><a href="index.html">首页</a></li>
+      <li><a href="yagk.html">延安概况</a></li>
+      <li><a href="yaly.html">延安旅游</a></li>
+      <li><a href="tsya.html">图说延安</a></li>
+      <li><a href="yams.html">延安美食</a></li>
+      <li><a href="dftc.html">地方特产</a></li>
+      <li><a href="lswh.html">历史文化</a></li>
+      <li><a href="shsy.html">社会事业</a></li>
+    </ul>
+  </div>
+  <div id="main" class="g-1st bgf">
+    <div class="g-blk30"></div>
+    <div class="g-bd g-lst">
+      <div class="m-nav2">
+        <span class="hover">地方特产</span>
+      </div>
+      <div class="food">
+        <ul>
+          <li>
+            <img src="../images/20171031230150612.png" alt="志丹羊肉">
+            <p><span>志丹羊肉</span></p>
+          </li>
+          <li>
+            <img src="../images/2it3cmpv4r.jpg" alt="洛川苹果">
+            <p><span>洛川苹果</span></p>
+          </li>
+          <li>
+            <img src="../images/24oy9pzv5n.jpg" alt="黄龙核桃">
+            <p><span>黄龙核桃</span></p>
+          </li>
+          <li>
+            <img src="../images/2jeoqsjv6l.jpg" alt="甘泉红小豆">
+            <p><span>甘泉红小豆</span></p>
+          </li>
+          <li>
+            <img src="../images/143x0k2v81.jpg" alt="子长马铃薯">
+            <p><span>子长马铃薯</span></p>
+          </li>
+          <li>
+            <img src="../images/1ftk7iiv9j.jpg" alt="延川红枣">
+            <p><span>延川红枣</span></p>
+          </li>
+          <li>
+            <img src="../images/1zmhxkkva7.jpg" alt="延长酥梨">
+            <p><span>延长酥梨</span></p>
+          </li>
+          <li>
+            <img src="../images/20171101131425658.gif" alt="安塞小米">
+            <p><span>安塞小米</span></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

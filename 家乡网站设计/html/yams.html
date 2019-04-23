@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="../css/style.css" rel="stylesheet" type="text/css" />
+<link href="../images/timg.jpg">
+<title>延安美食</title>
+<link href="../css/yams.css" rel="stylesheet" type="text/css" />
+</head>
+<script type="text/javascript">
+  function load(){
+    window.setInterval('showRealTime(clock)',1000);
+  }
+</script>
+<body  onload="load()">
+<div id="clock"></div>
+<script type="text/javascript">
+  function showRealTime(clock){
+    var d = new Date();
+    var year = d.getFullYear();
+    var month = d.getMonth() + 1;
+    var date = d.getDate();
+    var days = new Array("日","一","二","三","四","五","六");
+    var day = d.getDay();
+    var hour = (d.getHours() < 10) ? ("0" + d.getHours()) : d.getHours();
+    var min = (d.getMinutes() < 10) ? ("0" + d.getMinutes()) : d.getMinutes();
+    var sec = (d.getSeconds() < 10) ? ("0" + d.getSeconds()) : d.getSeconds();
+    var now = hour + ":" + min + ":" + sec+ "<br/>" + year + "/" + month + "/" + date + "<br/>星期" + days[day];
+    clock.innerHTML =now;
+  }
+</script>
+<div id="box" class="w1200">
+  <div id="top" class="w500"> 
+    <h1></h1>
+  </div>
+  <div id="daohang" class="w1200"> 
+    <ul>
+      <li><a href="index.html">首页</a></li>
+      <li><a href="yagk.html">延安概况</a></li>
+      <li><a href="yaly.html">延安旅游</a></li>
+      <li><a href="tsya.html">图说延安</a></li>
+      <li><a href="yams.html">延安美食</a></li>
+      <li><a href="dftc.html">地方特产</a></li>
+      <li><a href="lswh.html">历史文化</a></li>
+      <li><a href="shsy.html">社会事业</a></li>
+    </ul>
+  </div>
+  <div id="main" class="g-1st bgf">
+    <div class="g-blk30"></div>
+    <div class="g-bd g-lst">
+      <div class="m-nav2">
+        <span class="hover">延安美食</span>
+      </div>
+      <div class="food">
+        <ul>
+          <li>
+            <img src="../images/2wc6ap8op1.jpg" alt="猪灌肠">
+            <p><span>猪灌肠</span></p>
+          </li>
+          <li>
+            <img src="../images/2qfaarpon1.jpg" alt="油粉面">
+            <p><span>油粉面</span></p>
+          </li>
+          <li>
+            <img src="../images/8kut9slolx.jpg" alt="红薯糕">
+            <p><span>红薯糕</span></p>
+          </li>
+          <li>
+            <img src="../images/5afu6tqojt.bmp" alt="羊杂碎">
+            <p><span>羊杂碎</span></p>
+          </li>
+          <li>
+            <img src="../images/1bqx04cod9.bmp" alt="炖羊肉">
+            <p><span>炖羊肉</span></p>
+          </li>
+          <li>
+            <img src="../images/1say9v4oar.bmp" alt="钱钱饭">
+            <p><span>钱钱饭</span></p>
+          </li>
+          <li>
+            <img src="../images/6yg3qrpo8g.jpg" alt="油馍馍">
+            <p><span>油馍馍</span></p>
+          </li>
+          <li>
+            <img src="../images/1e12dvyo6y.jpg" alt="陕北油糕">
+            <p><span>陕北油糕</span></p>
+          </li>
+          <li>
+            <img src="../images/21mwirdo30.jpg" alt="洋芋擦擦">
+            <p><span>洋芋擦擦</span></p>
+          </li>
+          <li>
+            <img src="../images/15zprwzo1e.jpg" alt="苦菜酿洋芋">
+            <p><span>苦菜酿洋芋</span></p>
+          </li>
+          <li>
+            <img src="../images/1ufz9f3nwx.bmp" alt="卤煮驴板肠">
+            <p><span>卤煮驴板肠</span></p>
+          </li>
+          <li>
+            <img src="../images/11tmiuanv8.bmp" alt="荞面饸饹">
+            <p><span>荞面饸饹</span></p>
+          </li>
+          <li>
+            <img src="../images/1uobr2tnqq.bmp" alt="蜜制南瓜">
+            <p><span>蜜制南瓜</span></p>
+          </li>
+          <li>
+            <img src="../images/1bcgw5dnob.bmp" alt="陕北大烩菜">
+            <p><span>陕北大烩菜</span></p>
+          </li>
+          <li>
+            <img src="../images/1er2l2xnkn.bmp" alt="洋芋沫沫（黑楞楞）">
+            <p><span>洋芋沫沫（黑楞楞）</span></p>
+          </li>
+          <li>
+            <img src="../images/18yfmk0nhz.bmp" alt="凉粉">
+            <p><span>凉粉</span></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

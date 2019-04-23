@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+.g-1st {
+  min-height: 600px;
+  height: auto;
+  overflow: hidden;
+  padding-bottom: 0;
+}
+.bgf {
+  background-color: #ffffff;
+}
+.g-blk30 {
+  clear: both;
+  height: 30px;
+  overflow: hidden;
+  display: block;
+}
+.g-bd {
+  width: 1204px;
+  height: auto;
+  overflow: hidden;
+  margin: 0 auto;
+  color: #2b2b2b;
+}
+.g-lst .m-nav2 {
+    text-align: center;
+}
+.g-lst .m-nav2 span {
+    display: inline-block;
+    padding: 0 29px;
+    height: 46px;
+    font-size: 18px;
+    background: #e2b76a;
+    line-height: 46px;
+    color: #333333;
+    margin: 5px 0;
+}
+.g-lst .m-nav2 .hover {
+    background: #af0400;
+    color: #fff;
+}
+.g-lst .food {
+    height: auto;
+    overflow: hidden;
+}
+.g-lst .food ul {
+    height: auto;
+    overflow: hidden;
+    margin: 20px;
+}
+ol, ul {
+    list-style: none;
+}
+li {
+    list-style-type: none;
+    list-style: none;
+}
+.g-lst .food ul li {
+    height: 250px;
+    float: left;
+    display: block;
+    overflow: hidden;
+    width: 25%;
+}
+.g-lst .food ul li span {
+    height: 212px;
+    display: block;
+    overflow: hidden;
+}
+span {
+    color: #2b2b2b;
+    text-decoration: none;
+}
+.g-lst .food ul li p {
+    line-height: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 30px;
+    text-align: center;
+}
+.g-lst .food ul li p span {
+    padding: 0 6px;
+    line-height: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 30px;
+}
+.g-lst .food ul li span {
+    display: block;
+}
+.g-lst .food ul li img {
+    width: 284px;
+    height: 205px;
+    margin: 5px;
+    border: solid 1px #CCCCCC;
+    transition: all 0.6s;
+    
+}
+.g-lst .food ul li img:hover{
+  transform: scale(1.4);
+}

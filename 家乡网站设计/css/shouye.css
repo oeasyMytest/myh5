@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+.g-1st-video {
+  width: 1106px;
+  height: 547px;
+  margin: 0 auto;
+  background: url(../images/video_bg.png) no-repeat center;
+  position: relative;
+  text-align: center;
+  margin-top: 30px;
+}
+.para{
+	font-size: 14px;
+	word-wrap: break-word;
+	color: #333;
+	margin: 15px 0;
+	text-indent: 2em;
+	line-height: 24px;
+}
+img{
+	text-align: center;
+}

@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+div, p, h2, h3, h4, ul, li, img, a {
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: url(../images/top-bg.png) no-repeat top center #f9f7f2; 
+	background-size: 100%;
+}
+#clock{
+  float: right;
+  margin-top: -110px;
+}
+p {
+	font-family: "宋体", "华文楷体", "隶书";
+	font-size: 13px;
+	text-align: left;
+	text-indent: 2em;
+	line-height: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.m-ct-detail{
+	p{
+		text-indent: 2em;
+	}
+}
+.w500 {
+	width: 500px;
+}
+.w1200 {
+	width: 1200px;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clear {
+	clear: both;
+}
+.tu {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+#box {
+	margin: 0 auto;
+}
+#top {
+	height: 200px;
+	background-image: url(../images/top.png);
+	margin: 0 auto;
+	margin-top: 120px;
+}
+#daohang {
+	height: 60px;
+	margin-top: 10px;
+}
+#daohang ul {
+	list-style: none;
+}
+#daohang li {
+	float: left;
+	text-align: center;
+}
+#daohang a {
+	width: 150px;
+	height: 30px;
+	display: block;
+	font-size: 20px;
+	font-family: "华文行楷";
+	line-height: 30px;
+	text-decoration: none;
+	color: #670000;
+}
+#daohang a:hover {
+	width: 150px;
+	height: 30px;
+	display: block;
+	font-size: 25px;
+	font-family: "华文行楷";
+	line-height: 30px;
+	background-color: #b7b7b7;
+}
+.m-ct-detail p {
+    line-height: 36px;
+    font-size: 16px;
+    padding-top: 15px;
+}
+#main {
+	width: 1200px;
+	border-style: groove;
+	border-color: #93C;
+	border-width: 1px;
+}
+.lianjie{
+	font-weight: bold;
+	font-size: 20px;
+	text-align: right;
+	margin-right: 40px;
+	margin-bottom: 20px;
+}

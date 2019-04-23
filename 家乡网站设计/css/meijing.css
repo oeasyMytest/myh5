@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+hr{
+	size:1px;
+	text-align:left;
+	width:1170px;
+	margin-left:10px;
+}
+.tup {
+	float:right;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+.food {
+    height: auto;
+    overflow: hidden;
+}
+.food ul {
+    height: auto;
+    overflow: hidden;
+    margin: 20px;
+}
+ol, ul {
+    list-style: none;
+}
+.food ul li {
+    height: 250px;
+    float: left;
+    display: block;
+    overflow: hidden;
+    width: 25%;
+}
+li {
+    list-style-type: none;
+    list-style: none;
+}
+.food ul li img {
+    width: 284px;
+    height: 205px;
+    margin: 5px;
+    border: solid 1px #CCCCCC;
+    transition: all 0.6s;
+}
+.food ul li img:hover{
+    transform: scale(1.1);
+}
+.food ul li p {
+    line-height: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 30px;
+    text-align: center;
+}
+.food ul li p span{
+    padding: 0 6px;
+    line-height: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 30px;
+}
